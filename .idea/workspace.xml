@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="11" selection-start-column="11" selection-end-column="11" />
+            <state relative-caret-position="38">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -65,7 +65,26 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/app.css">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#32579#32834#2" expanded="true" />
+                <element signature="e#33506#33680#1" expanded="true" />
+                <element signature="e#33722#33977#1" expanded="true" />
+                <element signature="e#36606#36920#2" expanded="true" />
+                <element signature="e#37604#37778#1" expanded="true" />
+                <element signature="e#37820#38134#1" expanded="true" />
+                <element signature="e#71120#71328#2" expanded="true" />
+                <element signature="e#71583#71740#2" expanded="true" />
+                <element signature="e#72193#72349#2" expanded="true" />
+                <element signature="e#73683#73857#1" expanded="true" />
+                <element signature="e#89212#89469#2" expanded="true" />
+                <element signature="e#90481#90744#2" expanded="true" />
+                <element signature="e#125470#125666#2" expanded="true" />
+                <element signature="e#125721#125918#2" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -211,19 +230,13 @@
             <path>
               <item name="learnku_weibo" type="b2602c69:ProjectViewProjectNode" />
               <item name="learnku_weibo" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnku_weibo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnku_weibo" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learnku_weibo" type="b2602c69:ProjectViewProjectNode" />
               <item name="learnku_weibo" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -321,9 +334,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/app.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -331,10 +341,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
+    <entry file="file://$PROJECT_DIR$/public/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#32579#32834#2" expanded="true" />
+            <element signature="e#33506#33680#1" expanded="true" />
+            <element signature="e#33722#33977#1" expanded="true" />
+            <element signature="e#36606#36920#2" expanded="true" />
+            <element signature="e#37604#37778#1" expanded="true" />
+            <element signature="e#37820#38134#1" expanded="true" />
+            <element signature="e#71120#71328#2" expanded="true" />
+            <element signature="e#71583#71740#2" expanded="true" />
+            <element signature="e#72193#72349#2" expanded="true" />
+            <element signature="e#73683#73857#1" expanded="true" />
+            <element signature="e#89212#89469#2" expanded="true" />
+            <element signature="e#90481#90744#2" expanded="true" />
+            <element signature="e#125470#125666#2" expanded="true" />
+            <element signature="e#125721#125918#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
