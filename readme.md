@@ -26,3 +26,20 @@ cp .env.example .env
 ```
 php artisan key:generate
 ```
+
+---
+前端页面
+
+1.导入bootstrap
+```
+npm cache clear --force
+npm install cross-env
+npm install
+```
+2.生成css
+```
+npm run dev
+
+一直监测:
+npm run watch-poll
+```
