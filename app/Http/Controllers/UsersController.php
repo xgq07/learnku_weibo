@@ -95,7 +95,7 @@ class UsersController extends Controller
         return redirect()->route('users.show', [$user]);
     }
 
-    
+
     public function confirmEmail($token)
     {
         $user = User::where('activation_token', $token)->firstOrFail();
