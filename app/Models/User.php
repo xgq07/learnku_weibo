@@ -45,12 +45,12 @@ class User extends Authenticatable
         return "http://www.gravatar.com/avatar/$hash?s=$size";
     }
 
-<<<<<<< HEAD
+
     public function statuses()
     {
         return $this->hasMany(Status::class);
     }
-=======
+
 
     public static function boot()
     {
@@ -59,6 +59,9 @@ class User extends Authenticatable
             $user->activation_token = Str::random(30);
         });
     }
-
->>>>>>> b77f818da33c39343a84586a14f26b0a5bde2d9d
+    public function feed()
+    {
+        return $this->statuses()
+            ->orderBy('created_at', 'desc');
+    }
 }
