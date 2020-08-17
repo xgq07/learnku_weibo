@@ -92,6 +92,10 @@ sudo service php-fpm start
 sudo sbin/nginx -c conf/laravel.conf
 ```
 
+9.生成测试数据
+```
+php artisan migrate:refresh --seed
+```
 ---
 前端页面
 
