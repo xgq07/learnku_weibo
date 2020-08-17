@@ -4,6 +4,8 @@ namespace App\Models;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Illuminate\Support\Str;
+
 
 class User extends Authenticatable
 {
@@ -77,6 +79,27 @@ class User extends Authenticatable
     public function isFollowing($user_id)
     {
         return $this->followings->contains($user_id);
+    }
+
+
+    public function statuses()
+    {
+        return $this->hasMany(Status::class);
+    }
+
+
+    public static function boot()
+    {
+        parent::boot();
+        static::creating(function ($user) {
+            $user->activation_token = Str::random(30);
+        });
+    }
+
+    public function feed()
+    {
+        return $this->statuses()
+            ->orderBy('created_at', 'desc');
     }
 
 }
