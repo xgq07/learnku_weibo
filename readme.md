@@ -92,6 +92,14 @@ sudo service php-fpm start
 sudo sbin/nginx -c conf/laravel.conf
 ```
 
+9.生成测试数据
+```
+php artisan migrate:refresh --seed
+```
+10.密码 123456
+```
+$2y$10$eYpg0d2Ni84ZCxQxs2pm2ukK4LJZBMVK0hQnSH0RCbpYhkT6WPo2u
+```
 ---
 前端页面
 
