@@ -121,4 +121,9 @@ class UsersController extends Controller
         return back();
     }
 
+
+    public function test(Request $request)
+    {
+        print_r('ab');
+    }
 }
